@@ -6,20 +6,14 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		Car myCar = new Car(50, "A123A", Color.BLACK, true);
+		String registrationNumber = "123";
+		String description = "desct";
 		
-		Car tomsCar = new Car(15, "B546D", Color.WHITE, true);
+		if (null != registrationNumber) {
+			description = description.concat(" Reg. Nr. ".concat(registrationNumber));
+		} 
 		
-		//System.out.println("My can plate nr is : " + myCar.getLicensePlate());
-		
-		myCar.changePaintColor(Color.BLUE);
-		
-		//System.out.println(myCar.getPaintColor().toString());
-		
-		String emptyString = "E";
-		String nullString = null;
-		
-		System.out.println(null != emptyString && !emptyString.isEmpty());
+		System.out.print(description);
 	
 	}
 
