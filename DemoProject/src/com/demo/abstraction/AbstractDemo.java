@@ -41,6 +41,14 @@ class Swedbank extends Bank {
     }
 }
 
+class RandomBank extends Bank {
+
+    @Override
+    void calculateSpecificBankTax() {
+
+    }
+}
+
 class SEB extends Bank {
 
     @Override
