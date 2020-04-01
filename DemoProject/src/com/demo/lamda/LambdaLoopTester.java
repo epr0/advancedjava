@@ -13,6 +13,7 @@ public class LambdaLoopTester {
         items.put("D", 40);
         items.put("E", 50);
         items.put("F", 60);
+        //test
 
         items.forEach((k,v)->System.out.println("Item : " + k + " Count : " + v));
 
